@@ -1,0 +1,21 @@
+interface person{
+age:number;
+
+name:string;
+}
+
+intrface Employee extends person{
+empId:stirng;
+}
+
+var engineer=<Employee>{};
+engineer.age=30;
+
+engineer.name="jai";
+
+engineer.empId="EMPpo24";
+console.log("Name:"+engineer.name);
+
+console.log("Age:"+engineer.age);
+
+console.log("Emp Id:"+engineer.empId);
